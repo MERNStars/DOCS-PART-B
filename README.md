@@ -3,7 +3,23 @@
 
 *Coder Academy Fast-Track Students 19/20 Melbourne*
 
+## Links
+
+### Website Link
+
+[WeExplore Website](https://weexplorehealthandlifestyle.netlify.com/)
+
+[WeExplore Heroku Backend](https://weexplorebackend.herokuapp.com/)
+
+### Github
+[WeExplore Frontend Source Code (Frontend Repo)](https://github.com/MERNStars/frontend)
+
+[WeExplore Server Source Code (Backend Repo)](https://github.com/MERNStars/Backend)
+
+
+
 ## Description of Website
+
 
 ### Purpose
 The weExplore website is designed to accompany and facilitate weExplore, in running and managing events.
@@ -88,6 +104,15 @@ Project Management/Misc:
 - Trello
 - Slack
 - Google Docs
+
+
+## Description of Libraries Used
+
+| Library | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text | 
+| Paragraph | Text | 
 
 ## Dataflow Diagram  
 Below are diagrams of level 0 and level 1 of the dataflow for the *we Explore* web application  
