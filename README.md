@@ -131,7 +131,10 @@ Project Management/Misc:
 | mongoose  | Mongoose is an Object Data Modeling for MongoDB and Node JS.  It translates the between the objects in code and the representation of those objects in MongoDB.  It spares us from having to write SQL when querying the database.  It is being used in the backend to define schemas and data models, validate the data being inserted into the database and simplify the process of data manipulations and queries. |
 | nodemailer    | Nodemailer is a module for Node JS to send emails.  It is being used in the front end to email the web admin the message user has left on the contact page.  It is also being used in the backend to email a unique link to the user when a password reset is requested. |
 | uuidv4    | UUID stands for universally unique identifier.  The package generates unique codes which is being used as unique identifier of the unique link for password reset.|
-| uuidv4    | UUID stands for universally unique identifier.  The package generates unique codes which is being used as unique identifier of the unique link for password reset.|
+| semantic-ui-react    | Semantic UI is a development framework that allows ease of build for user interface. The semantic-ui-react package allows react integration of Semantic UI. It was used to build the UI of components of the site such as buttons, containers and pop ups.|
+| react-moment & moment   | Moment React is a react component for the moment library. The moment javascript library allows for the formatting, parsing and manipulation of date and time. Moment was used to display the date and time of events in an accessible manner for the user.  |
+| react-router-dom   | React-router is a react package that allows for navigation of components through the react application. React-router-dom is a dom manipulation library for react-router. React-router-dom was used to navigate, route and link between components for our application. It was used to route and link to exact pathnames, if the pathname was not found a 404 page is rendered. |
+
 
 ## Dataflow Diagram
 
@@ -391,3 +394,12 @@ Once the task was undertaken it was moved from the "To do" backlog to the "Doing
 Below are screenshots of how we used a Trello board to follow the Kanban style and manage our project for Part A.
 ![Trello board](./docs/trello-capture-1.JPG)
 ![Trello card](./docs/trello-card-1.JPG)
+
+## Testing
+### Development Testing
+For development testing we asked our client to run through a checklist on our development site. The client provided feedback to allow us to improve on the site in line with agile principles.  
+[Here is a link to the development usability testing](https://drive.google.com/open?id=1lpNC5RPfoqWX2F_JqtzPMNtkvnROCjIJvpwciuIv18g)  
+### Production Testing  
+For production testing we asked out client to re run through the usability checklist this time on our deployed production site.  
+We also took a screen recording of using the production site end to end.  
+[Here is a link to the google drive which contains the videos and production usability testing spreadsheet](https://drive.google.com/open?id=19MRIMWLi04ZOD9wBeEp0WVlvZ5sVP3Hg)  
