@@ -136,7 +136,11 @@ In order to run these tests
 This should open a window which contains all the integration tests. This dashboard will allow you to run all individual tests or all the tests once. 
 
 
-## Unit and Integration Testing (Back End)
+### Unit and Integration Testing (Back End)
+
+Unit and integration testing uses jest and supertest. 
+
+To run the tests in the backend, go to backend repository and in the command line use the following command `jest __test__/. --detectOpenHandles`. This should run all the tests.
 
 
 ## Description of Libraries Used
