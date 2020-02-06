@@ -117,6 +117,28 @@ Project Management/Misc:
 * Slack
 * Google Docs
 
+## How To Run Tests
+
+### Unit and Integration Testing (Front End)
+
+Unit and integration testing is done using react-testing-library. In order to run these tests, on the command line inside the front-end repository type `yarn test --watchAll`. This should run all the tests in the front end.
+
+### Integration and End-To-End Testing (Front End)
+
+Integration and End-To-End Testing uses cypress to run its testing. 
+
+In order to run these tests
+
+- Ensure you have the cypress package before running this. To do this `yarn add cypress`. 
+- Make sure you run the application on local host by running `yarn start`
+- On the command line inside the front-end repository use the following command `yarn cypress open`.
+  
+This should open a window which contains all the integration tests. This dashboard will allow you to run all individual tests or all the tests once. 
+
+
+## Unit and Integration Testing (Back End)
+
+
 ## Description of Libraries Used
 
 | Library | Description |
@@ -134,6 +156,9 @@ Project Management/Misc:
 | semantic-ui-react    | Semantic UI is a development framework that allows ease of build for user interface. The semantic-ui-react package allows react integration of Semantic UI. It was used to build the UI of components of the site such as buttons, containers and pop ups.|
 | react-moment & moment   | Moment React is a react component for the moment library. The moment javascript library allows for the formatting, parsing and manipulation of date and time. Moment was used to display the date and time of events in an accessible manner for the user.  |
 | react-router-dom   | React-router is a react package that allows for navigation of components through the react application. React-router-dom is a dom manipulation library for react-router. React-router-dom was used to navigate, route and link between components for our application. It was used to route and link to exact pathnames, if the pathname was not found a 404 page is rendered. |
+| react-testing-library  | A testing library for testing React Components through the DOM. Specifically, used for unit and integration testing.  |
+| cypress JS  | A testing library for automated end-to-end and integration testing. Cypress runs inside the the browser to allow developers to visually see the test in action and in real time.  |
+
 
 
 ## Dataflow Diagram
