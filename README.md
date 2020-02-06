@@ -394,3 +394,12 @@ Once the task was undertaken it was moved from the "To do" backlog to the "Doing
 Below are screenshots of how we used a Trello board to follow the Kanban style and manage our project for Part A.
 ![Trello board](./docs/trello-capture-1.JPG)
 ![Trello card](./docs/trello-card-1.JPG)
+
+## Testing
+### Development Testing
+For development testing we asked our client to run through a checklist on our development site. The client provided feedback to allow us to improve on the site in line with agile principles.  
+[Here is a link to the development usability testing](https://drive.google.com/open?id=1lpNC5RPfoqWX2F_JqtzPMNtkvnROCjIJvpwciuIv18g)  
+### Production Testing  
+For production testing we asked out client to re run through the usability checklist this time on our deployed production site.  
+We also took a screen recording of using the production site end to end.  
+[Here is a link to the google drive which contains the videos and production usability testing spreadsheet](https://drive.google.com/open?id=19MRIMWLi04ZOD9wBeEp0WVlvZ5sVP3Hg)  
