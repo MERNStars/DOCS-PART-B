@@ -394,6 +394,14 @@ Once the task was undertaken it was moved from the "To do" backlog to the "Doing
 Below are screenshots of how we used a Trello board to follow the Kanban style and manage our project for Part A.
 ![Trello board](./docs/trello-capture-1.JPG)
 ![Trello card](./docs/trello-card-1.JPG)
+### Project Management During Development  
+During development our team continued to follow Kanban.  
+Set up of CD/CI with netlify and Heroku, when a ticket item/user story was completed it was pushed, reviewed and deployed.  
+This allowed us to continually show the client the progress of the web application and allow for ease of change when need be. This is exemplified as our final site user interface and functionality has differed from the wireframes due to the client wanting changes made after testing.  
+Each morning our team participated in a stand up where we each spoke about what we are currently working on, what we hope to achieve by the end of the day and any components we are requiring help with.  
+Below are screenshots of our Trello board use during development.  
+User stories and subtasks populated the backlog. Team members attached themselves to a task that they believed they could achieve. Tasks were broken down into sizes that required no longer than two days to complete. Once delegated the team member moved the task to doing, once completed the team member moved the task to done for other members to review before being progressed into production.  
+![Trello board for front-end](./docs/trello-partb-screenshot.png)
 
 ## Testing
 ### Development Testing
